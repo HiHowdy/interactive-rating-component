@@ -6,11 +6,11 @@ import RatingCard from "./RatingCard";
 
 type RatingFormProps = {
   onSubmit: (rating: number) => void;
+  rating: number;
+  setRating: (rating: number) => void;
 };
 
-const RatingForm = ({ onSubmit }: RatingFormProps) => {
-  const [rating, setRating] = useState(1);
-
+const RatingForm = ({ rating, setRating, onSubmit }: RatingFormProps) => {
   const handleSubmit = () => onSubmit(rating + 1);
 
   return (

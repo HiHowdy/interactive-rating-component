@@ -17,7 +17,11 @@ const InteractRating = () => {
       {submitted ? (
         <RatingSubmitted rating={rating} />
       ) : (
-        <RatingForm onSubmit={handleSubmit} />
+        <RatingForm
+          rating={rating}
+          setRating={setRating}
+          onSubmit={handleSubmit}
+        />
       )}
     </AnimatePresence>
   );
