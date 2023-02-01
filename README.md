@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Here]([[https://your-live-site-url.com](https://main--aesthetic-dieffenbachia-7828b6.netlify.app/)])
+- Live Site URL: [Here](https://main--aesthetic-dieffenbachia-7828b6.netlify.app/)
 
 ## My process
 
